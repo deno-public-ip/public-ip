@@ -15,6 +15,7 @@ import { publicIP } from 'https://deno.land/x/public_ip@v0.1.0/mod.ts';
 
 (async () => {
   console.log(await publicIP.v4());
+  // 168.20.117.174
 })();
 ```
 
