@@ -2,6 +2,22 @@
 
 Get your public IP address.
 
+## 🔧 How to use
+
+```js
+import { publicIP } from 'https://deno.land/x/public_ip@v0.1.0/mod.ts';
+```
+
+## 💡 Usage
+
+```ts
+import { publicIP } from 'https://deno.land/x/public_ip@v0.1.0/mod.ts';
+
+(async () => {
+  console.log(await publicIP.v4());
+})();
+```
+
 ## ❗ Issues
 
 If you think any of the `public_ip` can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
